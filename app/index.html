@@ -1,0 +1,150 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>morejs</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container cont1">
+          <h1>.append( )</h1>
+          <p>Add a paragraph to this container</p>
+          <div class="button button1">Click Me</div>
+        </div>
+        
+        <div class="container cont2">
+          <h1>.animate( )</h1>
+          <p>Collapse and hide image / reappear</p>
+          <div class="button button2">Click Me</div>
+          <img class="image2" src="thumb.png" width="300px"></img>
+        </div>
+
+        <div class="container cont3">
+          <h1>.css( )</h1>
+          <p>Change button background color</p>
+          <div class="button button3">Click Me</div>
+        </div>
+
+        <div class="container cont4">
+          <h1>.parent( )</h1>
+          <p>Change parent background color</p>
+          <div class="button button4">Click Me</div>
+        </div>
+
+        <div class="container cont5">
+          <h1 class="h15">.before( )</h1>
+          <p>Move the title outside of this container</p>
+          <div class="button button5">Click Me</div>
+        </div>
+
+        <div class="container cont6">
+          <h1>.clone( )</h1>
+          <p>Clone this button exponentially</p>
+          <div class="button button6">Click Me</div>
+        </div>
+
+        <div class="container cont7">
+          <h1>:contains( )</h1>
+          <p>Underline a line of text,</p>
+          <p class="secondp">only if it contains the word "it".</p>
+          <div class="button button7">Click Me</div>
+        </div>
+
+        <div class="container cont8">
+          <h1>.dblclick( )</h1>
+          <p>Bind an event to a double click</p>
+          <div class="button button8">Click Me</div>
+        </div>
+
+        <div class="container cont9">
+          <h1>.eq( )</h1>
+          <p>Highlight the 2nd [indexed] item</p>
+          <div class="button button9">Click Me</div>
+          <ul>
+              <li>List Item 1</li>
+              <li>List Item 2</li>
+              <li>List Item 3</li>
+              <li>List Item 4</li>
+          </ul>
+        </div>
+
+        <div class="container cont10">
+          <h1>:even</h1>
+          <p>Highlight the even [indexed] list items</p>
+          <div class="button button10">Click Me</div>
+          <ul>
+              <li class="evenlist">List Item 1</li>
+              <li class="evenlist">List Item 2</li>
+              <li class="evenlist">List Item 3</li>
+              <li class="evenlist">List Item 4</li>
+          </ul>
+        </div>
+
+        <div class="container cont11">
+          <h1>.fadeToggle()</h1>
+          <p>Fade image in and out</p>
+          <div class="button button11">Click Me</div>
+          <img class="image11" src="background.jpg" width="300px"></img>
+        </div>
+
+        <div class="container cont12">
+          <h1>.get( )</h1>
+          <p>Retrieve and display the nodeName of the element clicked</p>
+          <div class="button button12">Click any element in this div</div>
+          <span>&nbsp;</span>
+        </div>
+
+        <div class="container cont13">
+          <h1>.showHeight( )</h1>
+          <p>Display the height of this div</p>
+          <div class="button button13">Click Me</div>
+        </div>
+
+        <div class="container cont14">
+          <h1>.hide( )</h1>
+          <p>Hide this div</p>
+          <div class="button button14">Click Me</div>
+        </div>
+
+        <div class="container cont15">
+          <h1>("*")</h1>
+          <p>Apply a gold border to the entire site.  List number of elements updated</p>
+          <div class="button button15">Click Me</div>
+        </div>
+
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
